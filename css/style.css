@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*{
+	text-decoration: none;
+}
+
+.manu-bar{
+	text-align: center;
+	height: 70px;
+	background-color: blue;
+	line-height: 70px;
+}
+.manu-bar ul li{
+	display: inline-block;
+}
+.manu-bar ul li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 600px;
+	margin: 0 15px;
+	transition: 0.5s;
+}
+.manu-bar ul li a:hover{
+	color: #f50217;
+	font-size: 25px;
+	transition: 0.5s;
+}
+.sign-in{
+	text-align: right;
+	height: 30px;
+	background-color: #16a3f0;
+	line-height: 30px;
+}
+.sign-in ul li{
+	display: inline-block;
+}
+.sign-in ul li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 600px;
+	margin: 0 15px;
+	transition: 0.5s;
+}
+.sign-in ul li a:hover{
+	color: #f50217;
+	font-size: 25px;
+	transition: 0.5s;
+}
+
+
+/*home-page css here*/
+.icons{
+	text-align: center;
+	padding-top: 5px;
+}
+.icons ul li{
+	list-style: none;
+	display: inline-block;
+}
+.icons ul li a i{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	height: 60px;
+	width: 60px;
+	background-color: pink;
+	line-height: 60px;
+	border-radius: 100px;
+	margin: 0 10px;
+	transition: 0.5s;
+}
+
+.icons ul li a i:hover{
+	font-size: 30px;
+	color: white;
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+
+/*home-page css here*/
+.home-page{
+	background-image: url(../image/waterfall.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.home-page h1{
+	font size: 50px;
+	text-align: center;
+	color: black;
+	padding: 200px;
+}
+
+
+/*form css here*/
+
+.outerbox{
+	height: 600px;
+	width: 600px;
+	background-color: #c3c6c7;
+	margin: 0 auto;
+	position: relative;
+}
+.sign{
+	text-align: center;
+	padding-top: 565px;
+}
+.innerbox{
+	position: absolute;
+	height: 500px;
+	width: 550px;
+	background-color: #ebf0f2;
+	top: 50px;
+	left: 25px;
+}
+
+.text{	
+	text-align: center;
+	padding-top: 35px;
+}
+
+.first-Name{
+	display: inline-block;	
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 35px;
+}
+.last-Name{
+	display: inline-block;	
+	margin-left: 50px;
+}
+.email{
+	display: block;	
+	margin-left: 50px;
+}
+.phone{
+	display: block;
+	margin-left: 50px;
+}
+.password{
+	display: block;
+	margin-left: 50px;
+}	
+.confirm-password{
+	display: block;
+	margin-left: 50px;
+}
+.terms{
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	font-size: 15px;
+}
+.submit{
+	position: absolute;
+	height: 35px;
+	width: 400px;
+	background-color: #42a621;
+	top: 450px;
+	display: block;
+	margin-left: 70px;
+	top: 450px;
+	bottom: 40px;
+	font-size: 30px
+	margin-top: 380px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100px;	
+}
